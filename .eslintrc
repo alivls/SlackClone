@@ -1,13 +1,11 @@
 {
-    "extends": [
-      "airbnb",
-      "prettier"
-    ],
-    "plugins": [
-      "prettier"
-    ],
-    "parser": "babel-eslint",
-    "rules": {
-        
-    }
-  }
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "parser": "babel-eslint",
+  "rules": {}
+}
