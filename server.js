@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
   res.send('<center>Hello world</center> ');
 });
 
+// больше не хуйни
 app.get('/hello/:name', (req, res) => {
   const {
     name,
