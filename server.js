@@ -2,8 +2,8 @@ const express = require('express');
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello API');
+  res.send('<center>Hello world</center> ');
 });
 app.listen(3005 || undefined, () => {
-  console.log('API app started');
+  console.log('Server started');
 });
